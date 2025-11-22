@@ -4,7 +4,7 @@ A modern, production-ready URL shortener built with React.js, Node.js, Express,
 and MongoDB. Features a Minimal UI design and comprehensive API.
 
 
-![Demo](Public/Demo.gif)
+![Demo](./frontend/public/Demo.gif)
 
 
 ## 🌟 Features
