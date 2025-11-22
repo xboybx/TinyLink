@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+
+# Vite
+frontend/dist
+
+# VSCode
+.vscode/
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/logs
+backend/dist
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+frontend/logs
+frontend/dist
+
+# Misc
+*.local
+.idea/
+
+# Coverage
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache

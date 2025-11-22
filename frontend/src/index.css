@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-github-border;
+  }
+  
+  body {
+    @apply bg-github-canvas text-github-text font-sans text-sm leading-normal;
+  }
+}
+
+@layer components {
+  .github-card {
+    @apply bg-github-canvas-subtle border border-github-border rounded-md shadow-sm;
+  }
+  
+  .github-input {
+    @apply bg-github-input-bg border border-github-input-border rounded-md px-3 py-2 text-github-text placeholder-github-text-secondary focus:outline-none focus:ring-2 focus:ring-github-input-focus focus:border-github-input-focus transition-all;
+  }
+  
+  .github-button {
+    @apply bg-github-btn border border-github-border text-github-text font-medium px-4 py-2 rounded-md hover:bg-github-btn-hover transition-colors focus:outline-none focus:ring-2 focus:ring-github-accent focus:border-github-accent;
+  }
+  
+  .github-button-primary {
+    @apply bg-github-btn-primary text-white border border-github-btn-primary hover:bg-github-btn-primary-hover font-medium px-4 py-2 rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-github-accent focus:border-github-accent;
+  }
+  
+  .github-button-danger {
+    @apply bg-github-btn-danger text-white border border-github-btn-danger hover:bg-github-btn-danger-hover font-medium px-4 py-2 rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-github-danger focus:border-github-danger;
+  }
+  
+  .github-table {
+    @apply bg-github-canvas-subtle border border-github-border rounded-md overflow-hidden;
+  }
+  
+  .github-modal {
+    @apply bg-github-overlay-bg fixed inset-0 flex items-center justify-center z-50;
+  }
+  
+  .github-modal-content {
+    @apply bg-github-dropdown-bg border border-github-dropdown-border rounded-md shadow-lg p-6 max-w-md w-full mx-4;
+  }
+  
+  .github-header {
+    @apply bg-github-header border-b border-github-header-border;
+  }
+  
+  .github-sidebar {
+    @apply bg-github-sidebar border-r border-github-sidebar-border;
+  }
+  
+  .github-dropdown {
+    @apply bg-github-dropdown-bg border border-github-dropdown-border rounded-md shadow-lg;
+  }
+  
+  .github-menu-item {
+    @apply px-4 py-2 text-github-text hover:bg-github-menu-item-hover cursor-pointer transition-colors;
+  }
+  
+  .github-menu-item-selected {
+    @apply px-4 py-2 bg-github-menu-item-selected text-white cursor-pointer;
+  }
+  
+  .github-badge {
+    @apply bg-github-accent text-white text-xs font-medium px-2 py-1 rounded-full;
+  }
+  
+  .github-badge-success {
+    @apply bg-github-success text-white text-xs font-medium px-2 py-1 rounded-full;
+  }
+  
+  .github-badge-danger {
+    @apply bg-github-danger text-white text-xs font-medium px-2 py-1 rounded-full;
+  }
+  
+  .github-badge-warning {
+    @apply bg-github-warning text-white text-xs font-medium px-2 py-1 rounded-full;
+  }
+  
+  .github-link {
+    @apply text-github-text-link hover:underline;
+  }
+  
+  .github-text-secondary {
+    @apply text-github-text-secondary;
+  }
+  
+  .github-text-danger {
+    @apply text-github-text-danger;
+  }
+  
+  .github-text-success {
+    @apply text-github-text-success;
+  }
+  
+  .github-text-warning {
+    @apply text-github-text-warning;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.15s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.15s ease-out;
+}
