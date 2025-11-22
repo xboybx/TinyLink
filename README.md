@@ -1,6 +1,11 @@
 # TinyLink - URL Shortener
 
-A modern, production-ready URL shortener built with React.js, Node.js, Express, and MongoDB. Features a Minimal UI design and comprehensive API.
+A modern, production-ready URL shortener built with React.js, Node.js, Express, 
+and MongoDB. Features a Minimal UI design and comprehensive API.
+
+
+![Demo](Public/Demo.gif)
+
 
 ## 🌟 Features
 
